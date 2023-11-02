@@ -3,16 +3,16 @@ package Program1Task;
 import java.util.Scanner;
 
 public class Task {
-    private int rows;
+    private int rows; //Attributes
     private int characters;
 
 
-    public Task(int myRows, int myCharacters) {
+    public Task(int myRows, int myCharacters) { //Constructor
         rows = myRows;
         characters = myCharacters;
     }
 
-    public int getRows() {
+    public int getRows() { //Return statement
         return 5;
     }
 
@@ -20,11 +20,11 @@ public class Task {
         return 5;
     }
 
-    public int getWords() {
-        return 5;
+    public String getLine() {
+        return "hej";
     }
 
-    public void counter() {
+    public void counter() { //Method
 
         System.out.println("Write a text for each row and press Enter");
         System.out.println("Close the program by typing the word \"stop\" ");
