@@ -21,7 +21,7 @@ public class Task {
     }
 
     public String getLine() {
-        return "hej";
+        return "hello";
     }
 
     public void counter() { //Method

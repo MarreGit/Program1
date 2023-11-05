@@ -24,7 +24,7 @@ public class TestTask {
     public  void line(){
         Task user = new Task(0,0);
         String expected = user.getLine();
-        String actual = "hej";
+        String actual = "hello";
         assertEquals(expected, actual);
     }
 
